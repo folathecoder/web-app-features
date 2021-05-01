@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabbed Content Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <section id="tabbed-content">
+        <ul class="tabs">
+            <li data-target="#home" class="active">HOME</li>
+            <li data-target="#about">ABOUT</li>
+            <li data-target="#contact">CONTACT</li>
+            <li data-target="#faq">FAQs</li>
+        </ul>
+        <div id="home" class="panel active">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum tempora animi in ducimus sint consectetur, deleniti laborum maxime delectus inventore quis architecto aliquam quae. Corporis tenetur excepturi magnam expedita.</p>
+        </div>
+        <div id="about" class="panel">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum tempora animi in ducimus sint dolor obcaecati minima beatae architecto a necessitatibus harum dolorem, similique mollitia quos quisquam temporibus reprehenderit magnam? Necessitatibus!</p>
+        </div>
+        <div id="contact" class="panel">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum tempora animi in ducimus sint consectetur, deleniti laborum maxime delectus inventore quis architecto aliquam quae. Corporis tenetur excepturi magnam expedita.
+            Minus debitis natus soluta riosam quas, quia dolor obcaecati minima beatae architecto a necessitatibus harum dolorem, similique mollitia quos quisquam temporibus reprehenderit magnam? Necessitatibus!</p>
+        </div>
+        <div id="faq" class="panel">
+            <h2>FAQs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum tempora animi in ducimus sint consectetur, deleniti laborum maxime delectus inventore quis architecto aliquam quae. Corporis tenetur excepturi magnam expedita.
+            Minus debitis natus soluta nesciunt accusamus nulla nihil magni ipsa laboriosam quas, quia dolor obc mollitia quos quisquam temporibus reprehenderit magnam? Necessitatibus!</p>
+        </div>
+    </section>
     
+    <script src="app.js"></script>
 </body>
 </html>
